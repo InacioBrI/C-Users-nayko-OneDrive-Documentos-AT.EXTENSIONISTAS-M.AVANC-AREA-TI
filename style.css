@@ -826,7 +826,7 @@ footer .copyright{
         height: 35vh;
         width: 100%;
         background-size: cover;
-        background-position: top 0% right 0;
+        background-position: top 0% right 500px;
         padding: 0 80px;
         display: flex;
         flex-direction: column;
@@ -836,8 +836,26 @@ footer .copyright{
     #produto1{
         display: flex;
         justify-content: space-between;
-        padding-top: 50px;
+        padding-top: 0px;
         flex-wrap: wrap;
+    }
+    #produto1 .pro-container{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0x;
+
+        flex-wrap: wrap;
+    }
+    #produto1 .pro{
+        width: 100%;
+        min-width: 300px;
+        padding: 10px 10px;
+        border: 1px solid #bcc7be;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+        margin: 15px 0;
+        transition: 0.2 ease;
     }
   .carousel img{
     width: calc(100% / 2);
