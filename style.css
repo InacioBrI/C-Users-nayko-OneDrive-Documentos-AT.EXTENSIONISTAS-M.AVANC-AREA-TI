@@ -48,6 +48,24 @@ p{
     padding: 50px 100px;
     margin: 2%;
 }
+
+.main-text{
+    text-align: center;
+    color: white;
+}
+.main-text h2{
+    font-size: 40px;
+    color: #161616;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.main-text h4{
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
 body{
     width: 100%;
 }
@@ -132,6 +150,48 @@ body{
     color: rgb(255, 255, 255);
 }
 
+.about{
+    display: grid;
+    background: #1b1b1b;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.about-text{
+    margin-right: 200px;
+}
+.about-text h4{
+    margin: 10px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-text h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.about-text p{
+    color: white;
+    font-size: var(--p-font);
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.about-in- h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.about-img img{
+    max-width: 400px;
+    margin-top: 50px;
+    margin-block: 50px;
+    height: auto;
+    margin-left: 200px;
+    width: 50%;
+    border-radius: 20px;
+}
 
 /*////////*/
 /*feature 1*/
@@ -388,6 +448,24 @@ body{
     columns: #2a2a2a;
     font-size: 200px;
 }
+
+
+#produto1 .prod{
+    width: 23%;
+    min-width: 190px;
+    padding: 10px 12px;
+    border-radius: 25px;
+    margin: 15px 0;
+    transition: 0.2 ease;
+}
+
+
+#produto1 .prod img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
 
 #icon-container{
     font-size: 26px;
@@ -705,6 +783,7 @@ footer .h4s{
     font-size: 22px;
     padding-bottom: 0px;
     color: #810808;
+    margin-left: 0px;
 }
 
 footer p{
@@ -857,9 +936,26 @@ footer .copyright{
         margin: 15px 0;
         transition: 0.2 ease;
     }
-  .carousel img{
+    .carousel img{
     width: calc(100% / 2);
-  }
+    }
+    .about-text{
+        margin: 30px;
+
+    }
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        width: 100%;
+        margin-top: 0px;
+        height: auto;
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 550px) {
